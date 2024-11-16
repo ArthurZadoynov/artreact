@@ -27,25 +27,25 @@ export const Footer = () => {
           <h3>Site Map</h3>
           <ul className={styles.list}>
             <li>
-              <a href="/about">About Jelly Belly Wiki</a>
+              <a href="/module18react/about">About Jelly Belly Wiki</a>
             </li>
             <li>
-              <a href="/api">API Documentation</a>
+              <a href="/module18react">API Documentation</a>
             </li>
             <li>
-              <a href="/beans">Beans</a>
+              <a href="/module18react/beans">Beans</a>
             </li>
             <li>
-              <a href="/facts">Facts</a>
+              <a href="/module18react/facts">Facts</a>
             </li>
             <li>
-              <a href="/recipes">Recipes</a>
+              <a href="/module18react/recipes">Recipes</a>
             </li>
             <li>
-              <a href="/combinations">Combinations</a>
+              <a href="/module18react/combinations">Combinations</a>
             </li>
             <li>
-              <a href="/history">History</a>
+              <a href="/module18react/history">History</a>
             </li>
           </ul>
         </div>

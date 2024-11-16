@@ -46,27 +46,27 @@ export const About = () => {
         <h3>Check out all endpoints</h3>
         <ul>
           <li>
-            <a href="/BeansProject/beans">
+            <a href="/module18react/beans">
               Beans <StrelkaSvg />
             </a>
           </li>
           <li>
-            <a href="/BeansProject/recipes">
+            <a href="/module18react/recipes">
               Recipes <StrelkaSvg />
             </a>
           </li>
           <li>
-            <a href="/BeansProject/facts">
+            <a href="/module18react/facts">
               Facts <StrelkaSvg />
             </a>
           </li>
           <li>
-            <a href="/BeansProject/combinations">
+            <a href="/module18react/combinations">
               Combinations <StrelkaSvg />
             </a>
           </li>
           <li>
-            <a href="/BeansProject/history">
+            <a href="/module18react/history">
               History <StrelkaSvg />
             </a>
           </li>
