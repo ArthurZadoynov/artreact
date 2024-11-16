@@ -14,7 +14,7 @@ import { About } from "./pages/About";
 
 export const router = createBrowserRouter([
   {
-    path: "BeansProject",
+    path: "/module18react",
     element: <Layout />,
     loader: Loader,
     children: [
