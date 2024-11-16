@@ -1,0 +1,65 @@
+:root {
+  --base-red: #bd2328;
+  color: #bd2328;
+  background: linear-gradient(180deg, #f9f5f4, #edeae6);
+}
+
+main {
+  padding: 5rem 2rem;
+}
+
+@font-face {
+  font-family: "Lobster";
+  src: url("./fonts/Lobster.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#root {
+  max-width: 1920px;
+  min-height: 100vh;
+  display: grid;
+  margin: 0 auto;
+  padding: 20px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+h1 {
+  margin: 50px 0;
+  font-size: 48px;
+  text-align: center;
+  font-family: "Lobster";
+  color: var(--base-red);
+}
+
+@media (max-width: 520px) {
+  main {
+    padding: 5rem 0.2rem;
+  }
+}

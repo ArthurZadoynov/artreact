@@ -1,0 +1,26 @@
+.search {
+  input {
+    padding: 6px;
+    margin-right: 10px;
+  }
+  button {
+    padding: 6px 12px;
+    border: 1px solid #363636;
+    border-radius: 3px;
+    background-color: #d1d1d1;
+    &:hover {
+      background-color: #bebebe;
+    }
+    &:active {
+      background-color: #8f8f8f;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .search {
+    input {
+      margin-right: 5px;
+    }
+  }
+}

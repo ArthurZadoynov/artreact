@@ -1,0 +1,44 @@
+.container {
+  min-height: 50px;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 3rem;
+  z-index: 5;
+}
+
+.container img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.container nav a:not(:last-child) {
+  padding-right: 8px;
+}
+
+.container nav {
+  font-size: 18px;
+
+  a {
+    border: 0.1rem solid #0000;
+    margin-right: 0.2rem;
+    padding: 0.39rem;
+
+    &:hover {
+      border: 0.1rem solid #ee9085;
+      border-radius: 3rem;
+    }
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Lobster";
+  color: var(--base-red);
+  z-index: -2;
+}

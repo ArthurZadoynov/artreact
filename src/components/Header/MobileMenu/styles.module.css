@@ -1,0 +1,39 @@
+.container {
+  min-height: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 80px 40px 20px;
+  background: var(--base-red);
+  border-radius: 0 0 10px 10px;
+  opacity: 0.5;
+}
+
+.wrapper nav {
+  height: 100%;
+  display: grid;
+  justify-items: start;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+@keyframes visible {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
