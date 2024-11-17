@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <header>
       <div className={styles.container}>
-        <Link to="/18moduleReact" className={styles.logo}>
+        <Link to="/artreact" className={styles.logo}>
           <img src={logo} alt="logo" />
           <span>Jelly Belly</span>
         </Link>

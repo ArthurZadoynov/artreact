@@ -12,7 +12,7 @@ export const Footer = () => {
         <div>
           <h3>
             {" "}
-            <Link to="/18moduleReact" className={styles.logo}>
+            <Link to="/artreact" className={styles.logo}>
               <img src={logo} alt="logo" />
             </Link>
           </h3>
