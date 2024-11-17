@@ -14,7 +14,7 @@ import { About } from "./pages/About";
 
 export const router = createBrowserRouter([
   {
-    path: "/module18react",
+    path: "/18moduleReact",
     element: <Layout />,
     loader: Loader,
     children: [

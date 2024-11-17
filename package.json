@@ -1,9 +1,9 @@
 {
-  "name": "module18react-",
+  "name": "18moduleReact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://arthurzadoynov.github.io/module18react",
+  "homepage": "https://arthurzadoynov.github.io/18moduleReact",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

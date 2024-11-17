@@ -12,7 +12,7 @@ export const Footer = () => {
         <div>
           <h3>
             {" "}
-            <Link to="/module18react" className={styles.logo}>
+            <Link to="/18moduleReact" className={styles.logo}>
               <img src={logo} alt="logo" />
             </Link>
           </h3>
@@ -27,25 +27,25 @@ export const Footer = () => {
           <h3>Site Map</h3>
           <ul className={styles.list}>
             <li>
-              <a href="/module18react/about">About Jelly Belly Wiki</a>
+              <a href="/18moduleReact/about">About Jelly Belly Wiki</a>
             </li>
             <li>
-              <a href="/module18react">API Documentation</a>
+              <a href="/api">API Documentation</a>
             </li>
             <li>
-              <a href="/module18react/beans">Beans</a>
+              <a href="/18moduleReact/beans">Beans</a>
             </li>
             <li>
-              <a href="/module18react/facts">Facts</a>
+              <a href="/18moduleReact/facts">Facts</a>
             </li>
             <li>
-              <a href="/module18react/recipes">Recipes</a>
+              <a href="/18moduleReact/recipes">Recipes</a>
             </li>
             <li>
-              <a href="/module18react/combinations">Combinations</a>
+              <a href="/18moduleReact/combinations">Combinations</a>
             </li>
             <li>
-              <a href="/module18react/history">History</a>
+              <a href="/18moduleReact/history">History</a>
             </li>
           </ul>
         </div>
