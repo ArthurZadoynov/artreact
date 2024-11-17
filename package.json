@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://arthurzadoynov.github.io/18moduleReact",
+  "homepage": "https://arthurzadoynov.github.io/artreact",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
